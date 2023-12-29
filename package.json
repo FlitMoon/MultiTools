@@ -1,0 +1,28 @@
+{
+  "name": "multitools",
+  "version": "1.0.0",
+  "description": "Web/App have many function",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm-run-all --parallel start:**",
+    "start:server": "nodemon server",
+    "start:client": "cd multitools && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlitMoon/MultiTools.git"
+  },
+  "author": "Develop.FlitMoon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FlitMoon/MultiTools/issues"
+  },
+  "homepage": "https://github.com/FlitMoon/MultiTools#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "npm-run-all": "^4.1.5"
+  }
+}
